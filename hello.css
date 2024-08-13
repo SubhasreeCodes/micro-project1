@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
+body {
+    font-family: 'Gentium Plus', sans-serif;
+    background-color: #fbc991;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2C2C2C;
+}
+
+p {
+    font-size: 18px;
+    color: #2C2C2C;
+    line-height: 1.6;
+}
+
+.email-subscription {
+    margin-top: 30px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 10px;
+    color: #fcf8f8;
+}
+
+.hello img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #2C2C2C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-right p {
+    color: white;
+    margin: 5px 0;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.footer-email a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .footer-right {
+        align-items: center;
+    }
+
+    .social-media a img {
+        margin: 0 5px;
+    }
+}
